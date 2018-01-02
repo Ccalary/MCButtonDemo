@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3341B050E9D9CA72E27FBAA1 /* Pods_MCButtonDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD05F79ACF52CE4A3DDFDCA4 /* Pods_MCButtonDemo.framework */; };
+		FEA433341FFB23EE00D34B4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA433331FFB23EE00D34B4E /* AppDelegate.m */; };
+		FEA433371FFB23EE00D34B4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA433361FFB23EE00D34B4E /* ViewController.m */; };
+		FEA4333A1FFB23EE00D34B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA433381FFB23EE00D34B4E /* Main.storyboard */; };
+		FEA4333C1FFB23EE00D34B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA4333B1FFB23EE00D34B4E /* Assets.xcassets */; };
+		FEA4333F1FFB23EE00D34B4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA4333D1FFB23EE00D34B4E /* LaunchScreen.storyboard */; };
+		FEA433421FFB23EE00D34B4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA433411FFB23EE00D34B4E /* main.m */; };
+		FEA433541FFB4C3A00D34B4E /* UIButton+MCLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA433531FFB4C3A00D34B4E /* UIButton+MCLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A51FF7668B150BCB53A5F03 /* Pods-MCButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MCButtonDemo/Pods-MCButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BD05F79ACF52CE4A3DDFDCA4 /* Pods_MCButtonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCButtonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5826EA4A6AC9A1939375832 /* Pods-MCButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MCButtonDemo/Pods-MCButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FEA4332F1FFB23EE00D34B4E /* MCButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA433321FFB23EE00D34B4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEA433331FFB23EE00D34B4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEA433351FFB23EE00D34B4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEA433361FFB23EE00D34B4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEA433391FFB23EE00D34B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEA4333B1FFB23EE00D34B4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEA4333E1FFB23EE00D34B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEA433401FFB23EE00D34B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA433411FFB23EE00D34B4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEA433521FFB4C3A00D34B4E /* UIButton+MCLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+MCLayout.h"; sourceTree = "<group>"; };
+		FEA433531FFB4C3A00D34B4E /* UIButton+MCLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MCLayout.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA4332C1FFB23EE00D34B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3341B050E9D9CA72E27FBAA1 /* Pods_MCButtonDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C987E4EB0C729139AFB821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD05F79ACF52CE4A3DDFDCA4 /* Pods_MCButtonDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C5528BC08F2A5D646645752 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A51FF7668B150BCB53A5F03 /* Pods-MCButtonDemo.debug.xcconfig */,
+				E5826EA4A6AC9A1939375832 /* Pods-MCButtonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEA433261FFB23EE00D34B4E = {
+			isa = PBXGroup;
+			children = (
+				FEA433311FFB23EE00D34B4E /* MCButtonDemo */,
+				FEA433301FFB23EE00D34B4E /* Products */,
+				4C5528BC08F2A5D646645752 /* Pods */,
+				24C987E4EB0C729139AFB821 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA433301FFB23EE00D34B4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA4332F1FFB23EE00D34B4E /* MCButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA433311FFB23EE00D34B4E /* MCButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FEA433481FFB257700D34B4E /* MCButton */,
+				FEA433321FFB23EE00D34B4E /* AppDelegate.h */,
+				FEA433331FFB23EE00D34B4E /* AppDelegate.m */,
+				FEA433351FFB23EE00D34B4E /* ViewController.h */,
+				FEA433361FFB23EE00D34B4E /* ViewController.m */,
+				FEA433381FFB23EE00D34B4E /* Main.storyboard */,
+				FEA4333B1FFB23EE00D34B4E /* Assets.xcassets */,
+				FEA4333D1FFB23EE00D34B4E /* LaunchScreen.storyboard */,
+				FEA433401FFB23EE00D34B4E /* Info.plist */,
+				FEA433411FFB23EE00D34B4E /* main.m */,
+			);
+			path = MCButtonDemo;
+			sourceTree = "<group>";
+		};
+		FEA433481FFB257700D34B4E /* MCButton */ = {
+			isa = PBXGroup;
+			children = (
+				FEA433521FFB4C3A00D34B4E /* UIButton+MCLayout.h */,
+				FEA433531FFB4C3A00D34B4E /* UIButton+MCLayout.m */,
+			);
+			path = MCButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEA4332E1FFB23EE00D34B4E /* MCButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA433451FFB23EE00D34B4E /* Build configuration list for PBXNativeTarget "MCButtonDemo" */;
+			buildPhases = (
+				6B24E4CB7EA53F857BF194AE /* [CP] Check Pods Manifest.lock */,
+				FEA4332B1FFB23EE00D34B4E /* Sources */,
+				FEA4332C1FFB23EE00D34B4E /* Frameworks */,
+				FEA4332D1FFB23EE00D34B4E /* Resources */,
+				1C2C7D6B9B9613C7C3D68175 /* [CP] Embed Pods Frameworks */,
+				4A94520E8BCC7DEC820EE141 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCButtonDemo;
+			productName = MCButtonDemo;
+			productReference = FEA4332F1FFB23EE00D34B4E /* MCButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA433271FFB23EE00D34B4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = chh;
+				TargetAttributes = {
+					FEA4332E1FFB23EE00D34B4E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FEA4332A1FFB23EE00D34B4E /* Build configuration list for PBXProject "MCButtonDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEA433261FFB23EE00D34B4E;
+			productRefGroup = FEA433301FFB23EE00D34B4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA4332E1FFB23EE00D34B4E /* MCButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEA4332D1FFB23EE00D34B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA4333F1FFB23EE00D34B4E /* LaunchScreen.storyboard in Resources */,
+				FEA4333C1FFB23EE00D34B4E /* Assets.xcassets in Resources */,
+				FEA4333A1FFB23EE00D34B4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C2C7D6B9B9613C7C3D68175 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MCButtonDemo/Pods-MCButtonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A94520E8BCC7DEC820EE141 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MCButtonDemo/Pods-MCButtonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B24E4CB7EA53F857BF194AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA4332B1FFB23EE00D34B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA433541FFB4C3A00D34B4E /* UIButton+MCLayout.m in Sources */,
+				FEA433371FFB23EE00D34B4E /* ViewController.m in Sources */,
+				FEA433421FFB23EE00D34B4E /* main.m in Sources */,
+				FEA433341FFB23EE00D34B4E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEA433381FFB23EE00D34B4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA433391FFB23EE00D34B4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEA4333D1FFB23EE00D34B4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA4333E1FFB23EE00D34B4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEA433431FFB23EE00D34B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEA433441FFB23EE00D34B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEA433461FFB23EE00D34B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A51FF7668B150BCB53A5F03 /* Pods-MCButtonDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2M227336GQ;
+				INFOPLIST_FILE = MCButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rs.MCButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEA433471FFB23EE00D34B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5826EA4A6AC9A1939375832 /* Pods-MCButtonDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2M227336GQ;
+				INFOPLIST_FILE = MCButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rs.MCButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA4332A1FFB23EE00D34B4E /* Build configuration list for PBXProject "MCButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA433431FFB23EE00D34B4E /* Debug */,
+				FEA433441FFB23EE00D34B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA433451FFB23EE00D34B4E /* Build configuration list for PBXNativeTarget "MCButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA433461FFB23EE00D34B4E /* Debug */,
+				FEA433471FFB23EE00D34B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEA433271FFB23EE00D34B4E /* Project object */;
+}
