@@ -21,6 +21,10 @@
     }
     CGFloat kMargin = margin/2.0;
     switch (status) {
+        case MCLayoutStatusNormal://图左字右
+            [self setImageEdgeInsets:UIEdgeInsetsMake(0, -kMargin, 0, kMargin)];
+            [self setTitleEdgeInsets:UIEdgeInsetsMake(0, kMargin, 0, -kMargin)];
+            break;
         case MCLayoutStatusImageRight://图右字左
             [self setImageEdgeInsets:UIEdgeInsetsMake(0, labWidth + kMargin, 0, -labWidth - kMargin)];
             [self setTitleEdgeInsets:UIEdgeInsetsMake(0, -imgWidth - kMargin, 0, imgWidth + kMargin)];
